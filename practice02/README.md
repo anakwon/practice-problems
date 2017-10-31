@@ -10,3 +10,13 @@ Build a function that takes in an array and reverses it
 	- `arrayReverse(myArray);`
 	- Output - `['23', 'what', 'Bob', 45, 'hello']`
 - Avoid using pre-built functions that do something similar
+
+function reverseString (str){
+	if (str === "")
+	return "";
+
+	else 
+	return reverseString (str.substr(1)) + str.charAt(0);
+}
+
+reverseString ("Hello");

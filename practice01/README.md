@@ -10,3 +10,8 @@ Build a function that takes in a string and an array of strings. The function sh
 	- `var myArray = ['bug', 'insect', 'mammal', 'reptile', 'mammoth', 'turtles'];`
 	- `biggerWords('whales', myArray);`
 	- Output - `['reptile', 'mammoth', 'turtles']` 
+
+var myArray = ['math', 'science', 'english', spanish', 'music'];
+var biggerWords = ['superfood', 'cycling'];
+
+
