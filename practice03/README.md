@@ -29,3 +29,15 @@ Build a function that sorts an array into a multidimensional array grouped by da
 console.log(numeric);
 console.log(obj);
 console.log(mixed);
+
+
+var iMax = 20;
+var jMax = 10;
+var f = new Array();
+
+for (i=0;i<iMax;i++) {
+ f[i]=new Array();
+ for (j=0;j<jMax;j++) {
+  f[i][j]=0;
+ }
+}
