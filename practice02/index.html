@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+  
+  <p id="root"></p>
+  <p id="reverse"> </p>
+
+  
+<script type="text/javascript">
+	var myArray = ['hello', '45', 'Bob', 'what', '23'];
+	console.log( 'Normal Order ' + myArray);
+	var reversed = myArray.reverse();
+
+	document.getElementById("root").innerHTML = myArray;
+	//myArray.reverse(); equals to var myArray
+	console.log( 'Reversed ' + reversed);
+
+	function reverseString(){
+	  myArray.reverse();
+	  document.getElementById("reverse").innerHTML = myArray;
+	}
+	console.log(myArray);
+	reverseString();
+
+</script>
+</body>
+</html>
