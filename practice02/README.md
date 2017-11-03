@@ -20,3 +20,25 @@ function reverseString (str){
 }
 
 reverseString ("Hello");
+console.log(reverseString ("Hello"));
+
+document.getElementById('root').innerHTML = reverseString("Hello");
+
+
+
+===============================
+var myArray = ['hello', '45', 'Bob', 'what', '23'];
+console.log( 'Normal Order ' + myArray);
+var reversed = myArray.reverse();
+
+document.getElementById("root").innerHTML = myArray;
+//myArray.reverse(); equals to var myArray
+console.log( 'Reversed ' + reversed);
+
+function reverseString(){
+  myArray.reverse();
+  document.getElementById("reverse").innerHTML = myArray;
+}
+console.log(myArray);
+reverseString();
+
