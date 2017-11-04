@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	//	- `var myArray = ['hello', 34, true, false, 'goodbye', 56, 12, '25', true];`
+	- `groupArray(myArray);`
+	- Output - `[['hello, 'goodbye', '25'], [34, 56, 12], [true, false, true]]`
+
+
+
+<script type="text/javascript">
+	
+	var myArray = ['hello', 34, true, false, 'goodbye', 56, 12, '25', true];
+
+	myArray.sort(sortFunction);
+
+	function sortFunction(myArray, b) {
+	    if (myArray[0] === b[0]) {
+	        return 0;
+	    }
+	    else {
+	        return (myArray[0] < b[0]) ? -1 : 1;
+	    }
+	}
+console.log(sortFunction);
+
+
+</script>
+</body>
+</html>
